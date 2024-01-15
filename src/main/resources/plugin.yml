@@ -1,0 +1,4 @@
+name: PIXEL
+main: io.github.kimmy.base.core.Main
+version: ${version}
+api-version: 1.13
