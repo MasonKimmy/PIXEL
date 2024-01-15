@@ -9,4 +9,5 @@ public interface CutsceneRepository {
     Optional<Cutscene> findById(String uniqueId);
     Optional<Cutscene> findByName(String name);
     List<Cutscene> findAll();
+    void clear();
 }

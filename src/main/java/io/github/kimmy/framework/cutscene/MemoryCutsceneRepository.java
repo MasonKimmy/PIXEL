@@ -40,6 +40,11 @@ public class MemoryCutsceneRepository implements CutsceneRepository {
         return new ArrayList<>(repository.values());
     }
 
+    @Override
+    public void clear() {
+        repository.values().forEach(this::remove);
+    }
+
     public Main getPlugin() {
         return plugin;
     }
